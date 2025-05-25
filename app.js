@@ -1,8 +1,8 @@
 class DrumKit {
   constructor() {
     this.initializeElements();
-    this.initializeAudio();
     this.initializeState();
+    this.initializeAudio();
     this.bindEvents();
   }
 
